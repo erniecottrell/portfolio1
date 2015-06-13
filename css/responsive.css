@@ -1,0 +1,35 @@
+@media (min-width:911px) {
+	header {
+		padding: 50px 0;
+	}
+	.windowbox {
+		padding: 150px 0;
+		margin: 0 auto;
+	}
+	.primary-content {
+		padding: 0 100px;
+	}
+}
+
+@media (max-width:910px) {
+	header {
+		padding: 25px 0;
+	}
+	header h1 {
+		font-size: 5rem;
+	}
+}
+
+@media (max-width: 460px) {
+	header h1{
+		font-size: 3rem;
+	}
+	header span {
+		font-size: 1.25rem;
+	}
+	.opener {
+		text-align: center;
+		padding:0;
+		margin: 0;
+	}
+}
